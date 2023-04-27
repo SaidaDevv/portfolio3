@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.card{
+border: 1px solid gray;
+width: 350px;
+height: 400px;
+
+background-image: url(./flower.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+.card2{
+    border: 1px solid gray;
+    width: 350px;
+    height: 400px;
+
+}
+
+
+.top{
+    margin-left: 45px;
+font-size: 35px;
+margin-top: 40px;
+
+}
+
+.bottom{
+
+color: grey;
+margin-left: 45px;
+font-size: 10px;
+font-weight: initial;
+letter-spacing: 3px;
+word-spacing: 4px;
+}
+
+.text{
+
+margin-top: 60px;
+margin-left: 45px;
+
+
+}
+
+p{
+
+ font-size: 20px;   
+margin-top: 40px;
+margin-left: 45px;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btn{
+border: 1px solid rgb(117, 55, 217);
+border-radius: 22px;
+background-color:rgb(117, 55, 217) ;
+color: white;
+text-align: center;
+width: 160px;
+height: 40px;
+line-height: 38px;
+position: relative;
+left: 20px;
+top: 30px;
+}
+
+.btn:hover{
+color: brown;
+}
+
+.ikki{
+
+display: flex;
+
+}
+.box{
+
+display: flex;
+margin: 50px;
+margin-left: 330px;
+
+}
+
